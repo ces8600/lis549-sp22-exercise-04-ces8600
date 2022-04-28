@@ -1,0 +1,131 @@
+body {
+    font-family : 'Nunito Sans', Arial, sans-serif ;
+    font-size : 16px;
+}
+h1, h2 {
+    font-family : 'Raleway', Helvetica, sans-serif ;
+    font-weight : 300 ;
+    margin: 0 .5rem 0 0; 
+}
+h1 {
+    font-size : 3.5rem;
+}
+h2 {
+    font-size : 2.5rem;
+}
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+  .material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative; top:5px;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.container {
+    width : 960px;
+    margin-left : auto;
+    margin-right : auto;
+    padding: 2.5rem;
+}
+p, dl {
+    margin-top : 0;
+    margin-bottom : 1rem;
+}
+dd {
+    margin: 0 .5rem 0 0; 
+}
+nav {
+    position: fixed; 
+    width : 100%;
+    text-decoration-color: white;
+    background-color: #2C96BF;
+    padding: .5rem;
+}
+nav li {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: #F0F0F0;
+    border-bottom: .8rem;
+    transition: all .25s ease-out;
+}
+header {
+    background-image: url('../img/paul-gilmore-145802-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #0084Af;
+    color: white;
+    padding-top: 6rem;
+}
+p.motto {
+    font-style: italic;
+    font-size: 1.25rem;
+}
+#menu {
+    background-color: #f0f0f0;
+}
+dt {
+    font-size: 125%;
+    margin-top: 1rem;
+}
+dd p {
+    margin: 0%;
+}
+section img {
+    height: 200px;
+    border-radius: 15px;
+}
+#about {
+    background-color: #e0e0e0;
+    line-height: 1.5;
+}
+footer {
+    color: white;
+    background-color: #3E1305;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer p {
+    margin: 0;
+    line-height: 1.25;
+}
+footer p:last-child {
+    padding-top: 8px;
+}
